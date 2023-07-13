@@ -38,7 +38,8 @@ function App() {
       let config = {
         method: 'post',
         maxBodyLength: Infinity,
-        url: 'http://localhost:3001/proxy/Compliance/Individual',
+        // url: 'http://localhost:3001/proxy/Compliance/Individual',
+        url: 'https://cors-anywhere.herokuapp.com/https://dmvcivls-wselfservice.ct.gov/Compliance/Individual',
         headers: { 
           'Content-Type': 'application/x-www-form-urlencoded'
         },
